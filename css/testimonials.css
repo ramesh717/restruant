@@ -1,0 +1,38 @@
+#testimonials{
+    background: url('../img/3/port-fi-7.jpg'),black;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+
+    width: 100%;
+    overflow: hidden;
+  /* text-align: center; */
+    position: relative;
+    background-attachment: fixed;
+
+}
+.testimonials-overlay{
+    /* padding-top: 5rem; */
+text-align: center;
+    position: absolute;
+    background: black;
+    height: 100%;
+    opacity: .7;
+    color: white;
+    z-index: 55;
+    width: 100%;;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    padding: 5rem 0;
+
+}
+.testimonials-overlay .slider p{
+width: 50%;
+margin: 0 auto;
+}
+
+.testimonials-overlay .testimonial-img{
+   width: 100px;
+   margin: 1rem auto;
+}

@@ -1,0 +1,11 @@
+#food-showcase{
+    /* height: 50vh;; */
+    margin:7rem 0;
+    width: 100%;
+    overflow: hidden;
+}
+#food-showcase .show-case div{
+    height: 200px;
+    /* margin-right: 1rem;; */
+}
+

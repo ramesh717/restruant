@@ -1,0 +1,38 @@
+#chef{
+background: #EBEBEB;
+padding: 7rem 0;
+color: #333333;
+}
+#chef h5{
+margin-top: 3rem;
+font-weight: 100;
+
+}
+#chef h1{
+    font-size: 2.4rem;
+	letter-spacing: 0.5rem;
+    /* margin: 0rem auto; */
+    margin: 1rem 0;
+	text-transform: uppercase;
+}
+#chef p{
+    line-height: 1.5;
+	margin: 1rem auto 2rem auto;
+}
+#chef a {
+	text-decoration: none;
+	color: #333333;
+font-size: .8rem;
+	text-transform: capitalize;
+	background: white;
+	padding: .8rem 1.5rem;
+	transition: 0.5s ease-in-out;
+}
+#chef a:hover {
+	background: #333333;
+	color: white;
+}
+#chef .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

@@ -1,0 +1,44 @@
+
+    #special {
+        margin: 7rem 0;
+    }
+
+    #special .special-heading {
+       color: #333333;
+       text-align: center;
+    }
+    #special h5{
+    margin-top: 3rem;
+    font-weight: 100;
+    
+    }
+    #special h1{
+        font-size: 2.4rem;
+        letter-spacing: 0.5rem;
+        /* margin: 0rem auto; */
+        margin: 1rem 0;
+        text-transform: uppercase;
+    }
+    #special .special-heading p{
+        line-height: 1.5;
+        margin: 2rem auto 2rem auto;
+        width: 60%;
+    }
+    #special .special-body{
+        margin-top: 2rem;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 3rem;;
+    }
+    #special .special-body h2{
+color: #4d4c4c;
+margin: 1rem auto;
+        font-size: 1.2rem;
+}
+  
+    #special .special-body p{
+font-size: .9rem;
+color: #4d4c4c;
+}
+  
+    

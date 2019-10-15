@@ -1,0 +1,36 @@
+#ingredients {
+	background: #ebebeb;
+	color: #333333;
+	padding: 7rem 0;
+}
+#ingredients .container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1rem;
+}
+#ingredients .container h1 {
+	font-size: 2.4rem;
+	letter-spacing: 0.5rem;
+	/* margin: 0rem auto; */
+	text-transform: uppercase;
+}
+#ingredients .container h5 {
+	font-weight: 100;
+}
+#ingredients .container p {
+	line-height: 1.5;
+	margin: 1rem auto 2rem auto;
+}
+#ingredients a {
+	text-decoration: none;
+	color: #333333;
+font-size: .8rem;
+	text-transform: capitalize;
+	background: white;
+	padding: .8rem 1.5rem;
+	transition: 0.5s ease-in-out;
+}
+#ingredients a:hover {
+	background: #333333;
+	color: white;
+}

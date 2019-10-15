@@ -1,0 +1,35 @@
+#story {
+	background: white;
+	text-align: center;
+	margin: 6rem auto;
+}
+#story h1 {
+	font-size: 2.4rem;
+	letter-spacing: 0.5rem;
+	/* margin: 0rem auto; */
+	color: #333333;
+	text-transform: uppercase;
+}
+#story p {
+	width: 50%;
+	margin: 3rem auto;
+	color: #333333;
+	/* letter-spacing: 1px; */
+	line-height: 1.5;
+}
+#story .img-container {
+	margin-top: 5rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 2rem;
+}
+#story h5 {
+	color: #333333;
+	margin: 3rem;
+	font-style: italic;
+}
+/* #story .image-container img{
+width: 50%;
+margin: auto 1rem;
+
+} */

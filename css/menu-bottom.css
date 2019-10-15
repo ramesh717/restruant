@@ -1,0 +1,29 @@
+#menu-bottom{
+margin: 15rem 0 10rem 0;
+}
+
+#menu-bottom .container{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+    grid-gap: 3rem;
+}
+#menu-bottom .container h5{
+    
+    text-transform: uppercase;
+    margin: 1rem;
+    color: #333333;
+}
+#menu-bottom .container p{
+    
+   color: rgb(156, 156, 156);
+   letter-spacing: .7px;
+   line-height: 1.5;
+   font-size: .8rem;
+}
+#menu-bottom .container .item .img{
+  width: 100px;
+  margin: 0 auto;
+}
