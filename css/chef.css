@@ -36,3 +36,13 @@ font-size: .8rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+@media(max-width:500px){
+	#chef .container{
+	display: block;
+	}
+	#chef .container .chef-img{
+	margin-top: 2rem;;
+	}
+
+	
+}
