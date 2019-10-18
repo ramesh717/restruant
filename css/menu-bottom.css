@@ -27,3 +27,28 @@ margin: 15rem 0 10rem 0;
   width: 100px;
   margin: 0 auto;
 }
+
+@media (max-width: 800px) {
+	#menu-bottom {
+		margin: 10rem 0 10rem 0;
+	}
+
+	#menu-bottom .container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (max-width: 500px) {
+	#menu-bottom {
+		margin: 10rem 0 10rem 0;
+	}
+
+	#menu-bottom .container {
+		display: block;
+	}
+
+	#menu-bottom .container .item {
+		margin-top: 3rem;
+	}
+}
