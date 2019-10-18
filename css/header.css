@@ -76,3 +76,58 @@ header#header .banner-content a:hover{
 background: #333333;
 color: white;
 }
+
+
+@media(max-width:800px){
+	header#header .banner-content .container {
+		width: 85%;
+		margin: 0 auto;
+		}
+	header#header .banner-content h1{
+		font-size: 3rem;
+		letter-spacing: .8rem;
+		font-weight: 200;
+		text-transform: uppercase;
+	  }
+	  header#header .banner-content p{
+		font-size: .9rem;
+		letter-spacing:1.5px;
+		line-height: 1.8;
+		margin: 1rem 1rem 2.9rem 1rem;
+	  }
+	  header#header .banner-content a{
+	  text-decoration: none;
+		  color: #333333;
+	  /* text-transform: uppercase; */
+	  background: white;
+	  padding: 1rem 2rem;
+	  transition: .5s ease-in-out;
+	  }
+}
+
+@media(max-width:500px){
+	header#header .banner-content .container {
+		width: 90%;
+		margin: 0 auto;
+		}
+	header#header .banner-content h1{
+		font-size: 2rem;
+		letter-spacing: .8rem;
+		font-weight: 200;
+		text-transform: uppercase;
+	  }
+	  header#header .banner-content p{
+		font-size: .9rem;
+		letter-spacing:1px;
+		line-height: 1.8;
+		margin: 3rem .3rem ;
+	  }
+	  header#header .banner-content a{
+	  text-decoration: none;
+		  color: #333333;
+	  /* text-transform: uppercase; */
+	  background: white;
+	  padding: .5rem 1rem;
+	  transition: .5s ease-in-out;
+	  }
+}
