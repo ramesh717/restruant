@@ -34,3 +34,35 @@ font-size: .8rem;
 	background: #333333;
 	color: white;
 }
+
+@media(max-width:800px){
+
+	#ingredients .container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 1rem;
+	}
+	#ingredients .container .ingredients-img{
+	width: 100%;;
+	height: 70%;;
+	}
+	
+
+}
+
+@media(max-width:500px){
+
+	#ingredients .container {
+		display: block;
+	
+	}
+	#ingredients .container .ingredients-img{
+		width: 90%;
+		margin: 4rem auto;
+		}
+	#ingredients .container h1 {
+		font-size: 2rem;
+	
+	}
+	
+}
