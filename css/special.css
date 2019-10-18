@@ -41,4 +41,23 @@ font-size: .9rem;
 color: #4d4c4c;
 }
   
-    
+    @media (max-width: 800px) {
+	#special .special-heading p {
+		width: 85%;
+	}
+	#special .special-body {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (max-width: 500px) {
+	#special .special-heading p {
+		width: 100%;
+	}
+	#special .special-body {
+		display: block;
+	}
+	#special .special-body .special {
+		margin-top: 3rem;
+	}
+}
